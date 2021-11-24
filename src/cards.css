@@ -61,8 +61,8 @@ html {
   
 .cardGroup__card {
   /* flex-grow, flex-shrink, flex-basis */
-  flex-grow: 2;
-  flex-shrink: 3;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: 33%;
   border: none;
   border-radius: 0;
@@ -73,14 +73,15 @@ html {
 }
   
 .cardGroup__cardDescription {
-  flex-grow: 2;
-  flex-shrink: 3;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: 33%;
   /* flex-grow, flex-shrink, flex-basis */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .cardGroup {
+    max-width: 320px;
     width: 75%;
     display: inline-block;
   }
